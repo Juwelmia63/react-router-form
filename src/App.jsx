@@ -1,7 +1,8 @@
 
 import './App.css'
+import Hookform from './componant/Hookform'
 // import Simpleform from './componant/Simpleform'
-import Staitfulform from './componant/Staitfulform'
+// import Staitfulform from './componant/Staitfulform'
 
 function App() {
  
@@ -12,7 +13,10 @@ function App() {
       <h1>Vite + React</h1>
       {/* <Simpleform></Simpleform> */}
 
-      <Staitfulform></Staitfulform>
+      {/* <Staitfulform></Staitfulform> */}
+
+
+      <Hookform></Hookform>
     </>
   )
 }
